@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Controle</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:linear-gradient(135deg,#0f172a,#1e3a8a);
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .container{
+            background:#fff;
+            width:420px;
+            padding:40px;
+            border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,.3);
+            text-align:center;
+        }
+
+        h1{
+            color:#1e3a8a;
+            margin-bottom:15px;
+        }
+
+        p{
+            color:#555;
+            margin-bottom:30px;
+        }
+
+        button{
+            width:100%;
+            padding:15px;
+            margin:10px 0;
+            border:none;
+            border-radius:10px;
+            background:#2563eb;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+            transition:.3s;
+        }
+
+        button:hover{
+            background:#1d4ed8;
+            transform:scale(1.03);
+        }
+
+        footer{
+            margin-top:25px;
+            color:#888;
+            font-size:13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Controle de Empréstimos</h1>
+
+    <p>Bem-vindo ao sistema.</p>
+
+    <button onclick="alert('Cadastro')">
+        Cadastrar
+    </button>
+
+    <button onclick="alert('Consultar')">
+        Consultar
+    </button>
+
+    <button onclick="alert('Relatórios')">
+        Relatórios
+    </button>
+
+    <button onclick="alert('Sair')">
+        Sair
+    </button>
+
+    <footer>
+        © 2026 - Sistema Desenvolvido por Ronald Cezar
+    </footer>
+
+</div>
+
+</body>
+</html>
